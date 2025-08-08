@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         String jdbcURL = "jdbc:h2:file:C:/Users/WojciechKarrakula/IdeaProjects/movie_database/data/mydbmovies";
         String username = "sa";
-        String password = "";
+        String password = "hello";
 
         try (
                 Connection conn = DriverManager.getConnection(jdbcURL, username, password);
